@@ -197,7 +197,7 @@ type
   published
     property Canvas: TCanvas read FCanvas write FCanvas;
     property Control: TGraphicControl read FControl write SetControl;
-    property PixelsPermeter: Integer read FPixelsPerMeter write FPixelsPerMeter;
+    property PixelsPerMeter: Integer read FPixelsPerMeter write FPixelsPerMeter;
     property RealWidth: Extended read FRealWidth write FRealWidth;
     property RealHeight: Extended read FRealHeight write FRealHeight;
   end;
